@@ -1,0 +1,8 @@
+<h1 class='list-title'>List of Films</h1>
+{{#each films}}
+  <div class='container'>
+    <h3>{{this.title}}</h3>
+    <p>{{this.description}}</p>
+    <p><a href='/film/{{this.id}}'>See more</a></p>
+  </div>
+{{/each}}
